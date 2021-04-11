@@ -1,0 +1,24 @@
+<h2>Restaurant Details</h2> 
+
+<hr/>
+<div *ngIf="restaurant">
+  <div>
+    <label><b>Name </b></label> 
+    <p>{{restaurant.name}}</p>
+  </div>
+  <div>
+    <label><b> Adress</b></label> 
+    <p>{{restaurant.local}}</p>
+  </div>
+  <div>
+    <label><b> Food Type | Concept</b></label> 
+    <p>{{restaurant.type}}</p>
+  </div>
+    <div>
+    <label><b> Rating</b></label> 
+    <app-star [rating]="restaurant.rating"></app-star>
+  </div>
+</div>
+
+<br>
+<button (click)="list()" class="btn btn-color">Back to Restaurant List</button><br>

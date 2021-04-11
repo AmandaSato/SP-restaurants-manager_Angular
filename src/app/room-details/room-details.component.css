@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+label{
+    margin-top: 10px;
+}
+
+p{
+    padding: auto;
+    margin-bottom: 3px;
+}
+
+.btn-color{
+    background-color: #b4db8f;
+    box-shadow: 10px 10px 10px -5px lightgray;
+    padding: 5px;
+}

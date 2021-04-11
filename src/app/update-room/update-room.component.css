@@ -1,0 +1,10 @@
+.form-group{
+    box-shadow: 15px 15px 30px -20px lightgray;
+    border-radius: 5px;
+}
+
+.btn-style{
+    box-shadow: 10px 10px 10px -5px lightgray;
+    border-radius: 5px;
+    background-color: #82c981;
+}

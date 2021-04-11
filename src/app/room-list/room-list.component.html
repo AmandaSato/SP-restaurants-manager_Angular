@@ -1,0 +1,34 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+      <h2>Restaurants</h2>
+    </div>
+    <div class="panel-body">
+      <table class="table table-borderless">
+        <thead>
+          <tr>
+            <th >name</th>
+            <th>adress</th>
+            <th>type</th>
+            <th>rating</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody class="column">
+          <tr *ngFor="let restaurant of restaurants | async" 
+          style="box-shadow: 15px 15px 30px -20px lightgray inset;
+          border-radius: 5px;"
+          class="column">
+            <td>{{restaurant.name}}</td>
+            <td>{{restaurant.local}}</td>
+            <td>{{restaurant.type}}</td>
+            <td><app-star [rating]="restaurant.rating"></app-star></td>
+            <td><button (click)="deleteRestaurant(restaurant.id)" class="btn btn-danger">Delete</button>
+              <button (click)="updateRestaurant(restaurant.id)" class="btn btn-color" style="margin-left: 10px">Update</button>
+                <button (click)="restaurantDetails(restaurant.id)" class="btn btn-color" style="margin-left: 10px">Details</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  

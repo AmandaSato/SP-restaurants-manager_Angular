@@ -1,0 +1,11 @@
+.btn-color{
+    background-color: #b4db8f;
+}
+
+table {
+    border-collapse:separate; 
+    border-spacing:10px;
+}
+.column{
+    padding-bottom:50px;
+}
