@@ -1,7 +1,7 @@
 # São Paulo Restaurants Manager Interface
 
 ## Description
-Interface to register and organize data on restaurants of Sao Paulo city, criated with [Angular CLI](https://github.com/angular/angular-cli). The project communicates with an external API, which can be found [here](https://github.com/AmandaSato/spring-boot_SP-gastronomy-API).
+Interface to register and organize data on restaurants of Sao Paulo city, created with [Angular CLI](https://github.com/angular/angular-cli). The project communicates with an external API, which can be found [here](https://github.com/AmandaSato/spring-boot_SP-gastronomy-API).
 
 The data on each registered restaurant is:
 - restaurant name
